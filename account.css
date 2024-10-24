@@ -1,0 +1,61 @@
+.account{
+    font-size: 20px;
+    border: 0px solid black;
+    display: flex;
+    color: grey;
+    margin-left: 20px;
+}
+.account a{
+    text-decoration: none;
+    color: grey;
+}
+.register{
+    border: 0px solid black;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.login {
+ width:450px;
+ border: 0px solid black;
+}
+.login p{
+    color:grey;
+}
+.login input
+{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+.login button{
+    background-color: rgb(157, 14, 14);
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    border: 0px solid white;
+    font-size: 16px;
+    padding: 10px;
+
+}
+.login button a{
+    text-decoration: none;
+    color: white;
+}
+.login button:hover{
+    background-color: rgb(189, 13, 13);
+}
+.checkbox input{
+    width: 20px;
+    margin-left: 140px;
+    margin-top: -70px;
+}
+.login p a{
+    text-decoration: none;
+    color: grey;
+}
+.login i{
+color: green;
+font-size: 30px;
+}

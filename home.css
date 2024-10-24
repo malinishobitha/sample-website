@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+.nav{
+    display: flex;
+    background-color: rgb(211, 42, 42);
+    justify-content: space-evenly;
+}
+.nav h2{
+    font-size: 80px;
+    color: white;
+    margin-left: 30px;
+    font-family: "Allura", cursive;
+    transform: skewx(40deg);
+    border: 0px solid black;
+    width: 180px;
+    margin-top: 20px;
+}
+.navbar{
+    display: flex;
+    border: 0px solid black;
+    margin-top: 40px;
+    
+}
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    width: 380px; 
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+.nav-menu li{
+    position: relative;
+   
+}
+.nav-menu a{
+    text-decoration: none;
+    display: block;
+    color: white;
+
+}
+ .nav-menu a:hover{ 
+    color: orange;
+}
+
+.dropdown-menu{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    margin-left: -40px;
+}
+.dropdown-menu li{
+    width:150px;
+    list-style-type: none;
+    background-color: aliceblue;
+    color: black;
+}
+.dropdown-menu a{
+    padding: 10px;
+    color: black;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+
+}
+.contact{
+    padding: 20px;
+    color: orange;
+    list-style-type: none;
+    word-spacing: 10px;
+    border: 0px solid black;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+
+}
+.contact .dropdown li{
+    list-style-type: none;
+    width: 80px;
+    color: black;
+    font-size: 12px;
+}
+.contact .dropdown-menu a{
+    color: black;
+}
+.contact .dropdown-menu{
+    margin-top: -15px;
+    margin-left: 100px;
+}
+.contact h1{
+    color: white;
+}
+.scooty{
+    width: 250px;
+    background-color: rgb(103, 161, 16);
+    border-radius: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.scooty img{
+    width:60px;
+    height: 50px;
+   
+}
+.cart p{
+    color: white;
+}
+.dropdownitem{
+    position: relative;
+    width: 70px;
+    height: 2px;
+    background-color: rgb(3, 88, 3);
+    margin-top: 0px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f3efef;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: -70px;
+  }
+  
+  .dropdownitem:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content p{
+    color: black;
+  }
+  .navitems{
+    background-color: rgb(211, 42, 42);
+    height: 100px; 
+    }
+    .navbar-menu{
+        justify-content: center;
+    }
+ .navbar-menu img{
+            height: 60px;
+            width:60px;
+ }
+ .navbar-menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(244, 154, 154);
+    margin-right: 50px;
+
+ }
+ .navbar-menu a:hover{
+  color: white;
+ }
+ .back{
+    position: relative;
+ }
+ .back img{
+    width: 100%;
+    height: 900px;
+ }
+ .content {
+        position: absolute;
+        top:30%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        display: flex;
+      }
+      .content h3{
+        font-size: 30px;
+        color: white;
+      }
+.contents{
+        position: absolute;
+        top:40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .contents h1{
+        font-size: 50px;
+        color: white;
+      }
+      .contents h3{
+        font-size: 30px;
+        color: white;
+        margin-left: 130px;
+      }
+      .contents p{
+        color: white;
+      }
+.foodimage{
+    display: flex;
+    padding: 20px;
+    border: 0px solid black;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.image{
+    position: relative;
+    transition-duration:  2s;
+}
+.image img{
+    border: 0px solid black;
+    height: 550PX;
+    width: 500px;
+}
+.image img:hover{
+    transform: scale(1.1,1.1);
+} 
+.contenttwo{
+    position:absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.contenttwo h1{
+         color: white;
+         font-size: 30px;
+}
+.contenttwo p{
+    color: white;
+    font-size: 20px;
+}
+.image button{
+    color: white;
+    background-color: rgb(168, 7, 7);
+    border-radius: 20px;
+    font-size: 20px;
+    border: 0px solid  rgb(168, 7, 7);
+    height: 50px;
+}
+.image button a{
+    text-decoration: none;
+    color:white;
+}
+.fries {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: 0px solid black;
+    background-color: rgb(251, 149, 5);
+    position: relative;
+}
+.fries img{
+    position: absolute;
+    width:100px;
+    height: 180px;
+    padding: 10px;
+}
+.fries h2{
+    margin-left: 120px;
+    color: white;
+}
+.fries p{
+        margin-left: 120px;
+        color: white;
+    }
+    .ice{
+        position: relative;
+        margin: 30px;
+    }
+   .ice img{
+       
+        width:300px;
+        height: 180px;
+        
+    }
+    .ice{
+        color: white;
+    }
+    .fries:hover{
+        transform: scale(1.1,1.1);   
+    }
+    .ice img:hover{
+        transform: scale(1.1,1.1);
+    }
+    .burger{
+        position :relative
+    }
+    .burger img{
+        width:650px;
+        height: 280px;
+        margin-left: 550px;
+        margin-top: -35%;
+    }
+    .burger img:hover{
+        transform: scale(1.1,1.1);
+    }
+    .burger{
+        position: relative;
+    }
+   .order{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -20%;
+    display: flex;
+   }
+   .order p{
+    color: rgb(215, 71, 5);
+    font-size: 30px;
+   }
+   .order h1{
+    color: white;
+    font-size: 70px;
+   }
+   .navlist{
+    display: flex;
+    border: 0px solid black; 
+    justify-content: center;
+   }
+   .navlist ul{
+    list-style-type: none;
+    display: flex;
+    width: 380px; 
+    justify-content: space-evenly;
+    font-size: 28px;
+   }
+   .navlist a{
+    text-decoration: none;
+     color: grey;
+   }
+   .navlist a:hover{
+    color:black;
+   }
+   .pizzaitems{
+    display: flex;
+    justify-content: space-evenly;
+    height: 550px;
+    border: 0px solid black;
+   }
+   .dish{
+    width:25%;
+    border:0px solid black;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+   }
+   .dish img{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px 5px;
+    
+   }
+   .dish p{
+
+      font-size: 18px;
+   }
+   .rate{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .rate h6{
+    border:2px solid rgb(244, 227, 227);
+    width: 20px;
+    border-radius: 80px;
+    padding: 10px;
+  }
+  .rate h6:hover{
+    background-color: rgb(255, 225, 0);
+  }
+  .rate h5{
+padding: 10px;
+  }
+  .addcart{
+    
+    position: absolute;
+    display: none;
+    z-index: 1;
+    border: 0px solid black;
+    margin-bottom: 10px;
+  } 
+   
+  .addcart button{
+    color: white;
+    background-color: rgb(189, 10, 10);
+    font-size: 25px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    border:0px solid brown;
+   
+  }
+    .dish:hover .addcart {
+        display: block;
+       } 
+  .dish:hover{
+    border: 5px solid grey;
+    border-radius: 1px 1px 1px 1px;
+  }
+  .price{
+    border: 0px solid black;
+    margin-top: 50px;
+    position: relative;
+
+  }
+  .price img{
+    width: 100%;
+  }
+  .pizzaback{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pizzaback p{
+    color:white;
+    font-size: 20px;
+  }
+  .pizzaback h2{
+    color: white;
+    font-size: 30px;
+  }
+  .pizzaback button{
+    font-size: 20px;
+    background-color: rgb(169, 21, 21);
+    border:0px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+  }
+  .great p{
+    font-size: 30px;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+  }
+  .addcart button a{
+    text-decoration: none;
+    color: white;
+  }
+  .pepperoni{
+    background-color: #f3efef;
+    border: 0px solid black;
+    height: 400px;
+    position: relative;
+    bottom: 20px;
+  }
+  .pepperoniimg img{
+    height: 380px;
+    position: absolute; 
+    margin-left: 50%;
+    padding: 20px; 
+  }
+  .pepperonicon{
+    border:0px solid black;
+    width: 400px;
+    text-align: center;
+    margin-left: 40px;
+    padding: 20px;
+    
+  }
+.pepperonicon button{
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: rgb(165, 28, 28);
+  border:0px solid rgb(165, 37, 37);
+  padding: 20px;
+}
+.pepperonicon button a{
+  text-decoration: none;
+  color: white;
+}
+ .quality{
+  border: 1px solid black;
+  height: 500px;
+  margin-top: 50px;
+ } 
+ .service{
+  display: flex;
+  border: 0px solid black;
+  justify-content: space-evenly;
+  margin-top: 150px;
+ }
+ .logo{
+  border: 0px solid black;
+  width: 300px;
+  text-align: center;
+ }
+ .logo img{
+  width:100px;
+  height: 100px;
+ }
+ .logo p{
+  color: grey;
+ }
+ .picture{
+  border: 0px solid black;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+ }
+ .picture img{
+  width:230px;
+  height:250px;
+ }
+ .media{
+  background-color:black;
+  
+   }
+   .icon{
+    border: 0px solid white;
+   }
+ .app{
+  width: 300px;
+  padding: 50px;
+  margin-left: 35%;
+  border: 0px solid white;
+  justify-content: space-between;
+ }
+ .app i{
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 14px;
+  text-align: center;
+ }
+ .pizzaro h2{
+        margin-top: -20px;
+        text-align: center;
+        font-size: 80px;
+        color: white;
+        font-family: "Allura", cursive;
+        transform: skewx(40deg);
+ }
+ .contactdet{
+  color: white;
+  display: flex;
+  border: 0px solid white;
+  margin-left: 20%;
+  margin-top: -20px;
+  width: 800px;
+ }
+ .button button{
+  font-size: 20px;
+  color:white;
+  border:  rgb(200, 19, 19);
+  background-color: rgb(200, 19, 19);
+  height:50px;
+  border-radius: 20px;
+  margin-left: 43%;
+  margin-top: 30px;
+ }
+ 

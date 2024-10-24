@@ -1,0 +1,26 @@
+.pizzaidea{
+ width: 95%;
+ margin-left: 40px;
+ border: 1px solid grey;
+ border-radius: 10px;
+ margin-top: 50px;
+ display: flex;
+ height: 280px;
+ justify-content: space-evenly;
+}
+.pizzadet{
+    text-align: center;
+    border: 0px solid black;
+    margin-left: 60px;
+    width: 480px;
+}
+.pizzadet p{
+    color: grey;
+    font-size: 20px;
+}
+.pizzadet a{
+    text-decoration: none;
+}
+.pizzadet h3{
+    color: black;
+}

@@ -1,0 +1,44 @@
+.about-bg img{
+    width: 100%;
+}
+.aboutus{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+.aboutus p{
+   color: grey; 
+}
+.about{
+    display: flex;
+    border: 0px solid black;
+    justify-content: space-evenly;
+}
+.column1{
+    width: 300px;
+    border: 0px solid black;
+}
+.column1  img{
+    width: 300px;
+    height: 300px;
+}
+.column1 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.column1 p{
+    color: grey;
+}
+.delivering {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(46, 45, 45);
+}
+.brand{
+ display: flex;
+ border: 0px solid black;
+ justify-content: space-evenly;
+ margin-bottom: 250px;
+}
+   

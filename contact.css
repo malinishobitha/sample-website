@@ -1,0 +1,80 @@
+.map img{
+    height: 1%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.contactus{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+.contactus p{
+    font-size: 20px;
+    color: grey;
+}
+.formdet{
+    border: 0px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.message{
+    width: 800px;
+    border: 0px solid black;
+}
+.message p{
+    color: grey;
+}
+.message input{
+    width: 600px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+.message textarea{
+    width: 600px;
+    height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.message button{
+    font-size: 20px;
+    height: 50px;
+    background-color: rgb(184, 30, 30);
+    border: 0px solid black;
+    border-radius: 20px;
+}
+.message button a{
+    text-decoration: none;
+    color: white;
+}
+.message button:hover{
+    background-color: rgb(172, 6, 6);
+}
+.message1{
+    width: 300px;
+    border: 0px solid black;
+}
+.message1 p{
+    font-size: 18px;
+    color: grey;
+}
+.message1 table {
+    width: 350px;
+}
+.message1 table tr{
+    height: 30px;
+}
+.message1 table tr{
+    color: grey;
+}
+.message1 a{
+    text-decoration: none;
+    color: rgb(193, 27, 27);
+}

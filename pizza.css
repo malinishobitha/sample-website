@@ -1,0 +1,72 @@
+.showall{
+    display: flex;
+    border:0px solid black;
+    margin-top: 60px;
+}
+.showbutton button{
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border:  rgb(231, 225, 225);
+}
+.showbutton button a:hover{
+    background-color: rgb(231, 225, 225);
+    
+}
+.showbutton img{
+    height: 20px;
+    width:20px;
+}
+.showbutton button a{
+    text-decoration: none;
+    color:black;
+}
+.meat i{
+    color: red;
+}
+.veg i{
+    color: green;
+}
+.create{
+    margin-left: 500px;
+}
+.create button{
+    background-color: orange;
+    border: 1px solid orange;
+    font-size: 15px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    width: 180px;
+}
+.next{
+    display: flex;
+    justify-content: center;
+    border: 0px solid black;
+}
+.show{
+ border: 0px solid black;
+ width: 350px;
+ display: flex;
+ justify-content: space-between;
+}
+.show p{
+    width: 25px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    padding: 2px;
+}
+.show a{
+    text-decoration: none;
+}
+.show a:hover{
+    color:black;
+}
+.show button{
+    border-radius: 20px;
+    border: 1px solid grey;
+    width: 150px;
+}
